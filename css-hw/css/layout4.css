@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#container {
+	margin: 0 auto;
+}
+
+header, footer {
+	margin:1%;
+	display:block;
+	max-width:100%;
+	min-height:200px; 
+}
+
+header {
+	background:#336666;
+}
+
+.aside, .article {
+	margin:1%;
+	min-height:600px;
+	display: inline-block;
+}
+
+.aside{
+	background:#660066;
+	width:28%;
+	justify-content:flex-start;
+	
+}
+.article{
+	background: #00FF00;
+	width: 68%;
+	float:right;
+}
+
+footer{
+	background:#0033FF;
+}

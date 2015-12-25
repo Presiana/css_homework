@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+#container {
+	margin: 0 auto;
+}
+
+.header-container {
+	display:block;
+	max-width:100%;
+	min-height:100px; 
+	background:#336666;
+	margin: 1%;
+}
+
+section {
+	width:80%;
+	min-height:400px; 
+	background:green;
+}
+
+.content, footer{
+	margin:5px 10%;
+}
+
+#content h1 {
+	text-align:left;
+}
+
+#footer1, #footer2 {
+	width: 49%;
+	min-height:30px;
+	display: inline-block;
+}
+
+#footer1 {
+	background:purple;
+	float: left;
+}
+#footer2 {
+	background:blue;
+	float:right;
+}
+
+@media screen and (max-width: 600px) {
+	#footer1, #footer2 {
+	width: 100%;
+	min-height:30px;
+	display: block;
+	float:none;
+	margin:5px 0;
+	}
+}
+
+
+
+
